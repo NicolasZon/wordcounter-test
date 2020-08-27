@@ -6,8 +6,8 @@ import net.serenitybdd.screenplay.actions.Open;
 
 public class NavigateTo {
 
-    public static Performable theWikipediaHomePage() {
-        return Task.where("{0} opens the Wikipedia home page",
-                Open.browserOn().the(WikipediaHomePage.class));
+    public static Performable wordcounterHomePage(){
+        return Task.where("{0} opens the Wordcounter.net home page",
+                Open.browserOn().the(WordcounterHomePage.class));
     }
 }
